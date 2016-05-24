@@ -13,6 +13,13 @@ $(document).ready(function() {
 	  $( this ).next().slideToggle( "slow");
 	});
 
+	//scroll anchor
+    $('.menu li a').on('click',function(){
+		$('html,body').animate({scrollTop:$($(this).attr('href')).offset().top+0},800);
+		return false;
+	});
+
+
 	//bxslider
 	$('.main_slider ul').bxSlider();
 	$('.facts ul').bxSlider();
