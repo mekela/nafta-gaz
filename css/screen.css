@@ -431,6 +431,10 @@ textarea {
   -webkit-filter: grayscale(0);
 }
 
+.menu_btn {
+  display: none;
+}
+
 /*----------end-header----------*/
 /*----------main----------*/
 .main {
@@ -771,3 +775,101 @@ textarea {
 }
 
 /*----------end footer----------*/
+@media only screen and (max-width: 1300px) {
+  .container, .main_slider .bx-controls, .facts_wrap .bx-controls, .main_slider_block .bx-controls, .main_slider_block .container .bx-controls {
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .main_slider, .facts_wrap, .facts_wrap, .main_slider_block, .main_slider_block .container, .main_slider_block .bx-controls, .main_slider_block .container .bx-controls, .main_slider_block .bx-controls, .main_slider_block .container .bx-controls, .main_slider_block .bx-controls .bx-controls {
+    width: inherit;
+  }
+  img {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1040px) {
+  .logo, .menu {
+    float: none;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .menu {
+    padding-top: 20px;
+  }
+  .activity_block figure {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .menu li {
+    padding: 0 5px;
+  }
+  .menu li a {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .facts_wrap .facts dl {
+    padding: 50px 10px;
+  }
+  .logo {
+    float: left;
+    width: 150px;
+  }
+  .menu {
+    float: right;
+    width: auto;
+    text-align: right;
+    height: auto;
+    padding-top: 39px;
+  }
+  .menu ul {
+    display: none;
+    margin: 30px 0;
+  }
+  .menu ul li {
+    display: block;
+    height: auto;
+  }
+  .menu ul li a {
+    height: auto;
+    line-height: 1.3;
+    padding: 10px;
+  }
+  .menu_btn {
+    display: block;
+  }
+  .header {
+    height: auto;
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .main_slider h6, .facts_wrap h6, .facts_wrap h6, .main_slider_block h6, .main_slider_block .container h6, .main_slider_block .bx-controls h6, .main_slider_block .container .bx-controls h6, .main_slider_block .bx-controls h6, .main_slider_block .container .bx-controls h6, .main_slider_block .bx-controls .bx-controls h6 {
+    font-size: 30px;
+  }
+  .main_slider, .facts_wrap, .facts_wrap, .main_slider_block, .main_slider_block .container, .main_slider_block .bx-controls, .main_slider_block .container .bx-controls, .main_slider_block .bx-controls, .main_slider_block .container .bx-controls, .main_slider_block .bx-controls .bx-controls {
+    font-size: 13px;
+  }
+  .facts_wrap .facts dl {
+    padding: 5px 0;
+    background: none;
+    display: block;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .menu {
+    width: 140px;
+  }
+  .activity_block figure {
+    width: 100%;
+  }
+}
